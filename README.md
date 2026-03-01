@@ -58,12 +58,12 @@ The best-saved model is loaded to process the unseen test dataset. The test data
 
 ## 📈 Performance & Results
 
-> 📸 **Insert Training/Validation Loss Curve Here:**
-![Loss Curve](docs/images/loss_curve.png)
+After evaluating the model on the validation set, the current architecture achieved the following metrics:
 
-*(Note: Replace the values below with your final metrics from the console output once training completes!)*
-* **Best Validation Loss (MSE):** `XXXX.XXXX`
-* **Early Stopping Triggered At Epoch:** `XX`
+* **Validation Loss (MSE):** `11,190,914.00`
+* **Sample Predictions vs. Actuals:**
+  * **Predicted:** `[8.11, 166.37, 165.35, 166.36, 158.18]`
+  * **Actual:** `[474.00, 2012.93, 1265.76, 4114.08, 2900.15]`
 
 ## ⚙️ How to Run
 1. Clone this repository.
